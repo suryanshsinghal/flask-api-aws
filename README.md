@@ -58,7 +58,6 @@ flask-api-aws/
 │   └── terminal-deploy.png
 └── README.md
 ```
-
 ---
 
 ## 📸 Screenshots
@@ -89,7 +88,6 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 
-
 ---
 
 ☁️ AWS Deployment Summary
@@ -103,18 +101,15 @@ python app.py
 - Configured Nginx (reverse proxy)
 - Created systemd service for auto-start
 
-
 ---
 
 🚀 Production Architecture
 Client → Nginx (Port 80) → Gunicorn → Flask App
 
-
 ---
 
 🧪 Health Check
 http://13.233.197.179
-
 
 ---
 
@@ -128,14 +123,17 @@ http://13.233.197.179
 
 ---
 
-👨‍💻 Author
-- Suryansh
-
-
----
-
 ⭐ Future Improvements
 - Add custom domain (Route 53)
 - Enable HTTPS (SSL)
 - Add database integration
 - Implement CI/CD pipeline
+
+---
+
+## 👨‍💻 Author
+
+**Suryansh Singhal**
+MCA Student | Cloud Computing Enthusiast
+
+📧 [suryanshsinghal.work@gmail.com](mailto:suryanshsinghal.work@gmail.com)
