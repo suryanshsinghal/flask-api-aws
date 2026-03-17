@@ -1,24 +1,24 @@
 # 🚀 Flask API Deployment on AWS EC2
 
-This project demonstrates how to build and deploy a Flask-based REST API on an AWS EC2 instance.
-
-It includes a simple backend API along with a browser-friendly landing page.
+A production-ready Flask REST API deployed on AWS EC2 using Nginx, Gunicorn, and systemd.
 
 ---
 
 ## 🌐 Live Demo
-> http://<your-ec2-public-ip>:5000
+
+http://13.233.197.179/
 
 ---
 
 ## 📌 Features
 
 - REST API built using Flask
-- Deployed on AWS EC2 (Ubuntu)
 - Interactive HTML landing page
-- Multiple API endpoints
-- Dynamic routing
-- Health check endpoint
+- Dynamic API endpoints
+- Deployed on AWS EC2 (Ubuntu)
+- Production setup using Gunicorn
+- Nginx reverse proxy (no :5000)
+- Systemd service for auto-start and background execution
 
 ---
 
@@ -27,6 +27,8 @@ It includes a simple backend API along with a browser-friendly landing page.
 - Python
 - Flask
 - AWS EC2
+- Nginx
+- Gunicorn
 - Linux (Ubuntu)
 - GitHub
 
@@ -43,9 +45,9 @@ It includes a simple backend API along with a browser-friendly landing page.
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Local Setup
 
-### 1. Clone the repository
+### 1. Clone repository
 ```bash
-git clone https://github.com/<your-username>/flask-api-aws.git
+git clone https://github.com/suryanshsinghal/flask-api-aws
 cd flask-api-aws
