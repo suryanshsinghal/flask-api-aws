@@ -63,16 +63,16 @@ flask-api-aws/
 ## 📸 Screenshots
 
 ### 🔹 EC2 Instance (Running)
-![EC2](screenshots/ec2-instance.png)
+![EC2](screenshot/ec2-instance.png)
 
 ### 🔹 Application Running
-![App](screenshots/api-running.png)
+![App](screenshot/api-running.png)
 
 ### 🔹 API Response
-![API](screenshots/api-endpoint.png)
+![API](screenshot/api-endpoint.png)
 
 ### 🔹 Systemd Service (Production Setup)
-![Service](screenshots/terminal-deploy.png)
+![Service](screenshot/terminal-deploy.png)
 
 ---
 
