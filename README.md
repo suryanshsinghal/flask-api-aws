@@ -46,15 +46,16 @@ http://13.233.197.179
 
 ## 📂 Project Structure
 
+```md
 flask-api-aws/
 ├── app/
-│ ├── app.py
-│ └── requirements.txt
+│   ├── app.py
+│   └── requirements.txt
 ├── screenshots/
-│ ├── ec2-instance.png
-│ ├── api-running.png
-│ ├── api-endpoint.png
-│ └── terminal-deploy.png
+│   ├── ec2-instance.png
+│   ├── api-running.png
+│   ├── api-endpoint.png
+│   └── terminal-deploy.png
 └── README.md
 
 
@@ -112,7 +113,7 @@ Client → Nginx (Port 80) → Gunicorn → Flask App
 ---
 
 🧪 Health Check
-http://13.233.197.179/health
+http://13.233.197.179
 
 
 ---
