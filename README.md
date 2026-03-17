@@ -46,7 +46,7 @@ http://13.233.197.179
 
 ## 📂 Project Structure
 
-```md
+```
 flask-api-aws/
 ├── app/
 │   ├── app.py
@@ -57,7 +57,7 @@ flask-api-aws/
 │   ├── api-endpoint.png
 │   └── terminal-deploy.png
 └── README.md
-
+```
 
 ---
 
@@ -79,7 +79,7 @@ flask-api-aws/
 
 ## ⚙️ Local Setup
 
-```bash
+
 git clone https://github.com/suryanshsinghal/flask-api-aws
 cd flask-api-aws/app
 
